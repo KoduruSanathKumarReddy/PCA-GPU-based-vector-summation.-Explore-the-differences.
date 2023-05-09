@@ -333,7 +333,7 @@ int main(int argc, char **argv)
 ~~~
 
 ## Output:
-block.x=1023
+## block.x=1023
 ~~~
 root@SAV-MLSystem:/home/student/CodeSamples/chapter02# nvcc sumArraysOnGPU-timer.cu 
 root@SAV-MLSystem:/home/student/CodeSamples/chapter02# ./a.out
@@ -345,7 +345,7 @@ sumArraysOnHost Time elapsed 0.034306 sec
 sumArraysOnGPU <<<  16401, 1023  >>>  Time elapsed 0.020723 sec
 Arrays match.
 ~~~
-block.x = 1024
+## block.x = 1024
 ~~~
 root@SAV-MLSystem:/home/student/CodeSamples/chapter02# nvcc sumArraysOnGPU-timer.cu 
 root@SAV-MLSystem:/home/student/CodeSamples/chapter02# ./a.out
