@@ -181,7 +181,7 @@ int main(int argc, char **argv)
 ~~~
 ## block.x =1024
 ~~~
-#include "../common/common.h"
+#include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
 
@@ -360,7 +360,7 @@ Arrays match.
 ~~~
 # Comparision of results with other execution configuration.
 ~~~
-#include "../common/common.h"
+#include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
 
